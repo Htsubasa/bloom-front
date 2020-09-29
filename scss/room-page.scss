@@ -262,11 +262,11 @@ body{
 
     .mainvisual-wrap{
         position: relative;
-        background-image: url(../img/room/room_pic.png);
-        background-size: cover;
+        background-image: url(../img/room/room_main.png);
+        background-size: contain;
         text-align: center;
         width: 95%;
-        height: 777px;
+        height: 710px;
         margin: 0 auto;
     
     
@@ -305,7 +305,7 @@ body{
     }
 
      .sub_mainvisual_text{
-         font-size:14px;
+         font-size:15px;
          @include font-type-third();
          display: block;  
          margin-bottom: 43px;
@@ -315,10 +315,15 @@ body{
 
     }/*h1*/
 
+    .middle_text{
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
   p{
       color: white;
       @include font-type-third();
-      font-size: 13px;
+      font-size: 16px;
       font-weight: normal;
       line-height: 2;
       
@@ -358,7 +363,7 @@ body{
   top: 0;
   left: 0;
   background-color: rgba(0,0,0,0.3);
-  height: 777px;
+  height: 710px;
 
   @include sp-second(){
     height: 715px;
