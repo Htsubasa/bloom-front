@@ -2012,9 +2012,10 @@ html body .event_pc {
 
 html body .event_pc .event_pc_wrap {
   background-image: url(../img/front/event.png);
-  background-size: contain;
-  height: 49vh;
+  background-size: 100% 545px;
+  margin: 0 auto;
   position: relative;
+  height: 545px;
   /*event-content*/
 }
 
