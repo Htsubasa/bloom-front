@@ -345,6 +345,12 @@ html body header {
   /*header-inner*/
 }
 
+@media (max-width: 768px) {
+  html body header {
+    margin-bottom: 20px;
+  }
+}
+
 html body header img {
   position: absolute;
   z-index: -1;
@@ -370,6 +376,12 @@ html body header #header-inner {
   /*btn-gnavi*/
 }
 
+@media (max-width: 1180px) {
+  html body header #header-inner {
+    max-width: 90vw;
+  }
+}
+
 @media (max-width: 768px) {
   html body header #header-inner {
     padding-top: 20px;
@@ -390,9 +402,15 @@ html body header #header-inner .logo {
   color: #414141;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1180px) {
   html body header #header-inner .logo {
     font-size: 2.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  html body header #header-inner .logo {
+    font-size: 2em;
   }
 }
 
@@ -447,7 +465,7 @@ html body header #header-inner .header-nav ul .g-nav {
   line-height: 67px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1180px) {
   html body header #header-inner .header-nav ul .g-nav {
     font-size: 1.4em;
     margin-left: 1.5em;
@@ -486,6 +504,12 @@ html body header #header-inner .btn-gnavi {
   /*span*/
   /*span*/
   /*span*/
+}
+
+@media (max-width: 768px) {
+  html body header #header-inner .btn-gnavi {
+    margin-top: 8px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -595,7 +619,7 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li button:before
   border-bottom: 3px solid white;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1180px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li button:before {
     left: 500px;
   }
@@ -637,7 +661,7 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li:first-child:b
   font-weight: bold;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1180px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li:first-child:before {
     left: 470px;
   }
@@ -679,7 +703,7 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li:last-child:af
   font-weight: bold;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1180px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li:last-child:after {
     left: 550px;
   }
@@ -730,7 +754,7 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots .slick-active bu
   border-bottom: 3px solid #6CD6DB;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1180px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots .slick-active button:before {
     left: 500px;
   }
@@ -792,7 +816,6 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slider li .slider-img {
 @media (max-width: 375px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slider li .slider-img {
     text-align: center;
-    width: 100%;
   }
 }
 
@@ -801,12 +824,6 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slider li .slider-img img {
   margin: 0 auto;
   height: 660px;
   text-align: center;
-}
-
-@media (max-width: 1024px) {
-  html body .mainvisual .mainvisual-wrap .slider-wrap .slider li .slider-img img {
-    width: 80%;
-  }
 }
 
 @media (max-width: 375px) {
@@ -830,7 +847,7 @@ html body .mainvisual .mainvisual-wrap .mainvisual_text {
   transition: all 1.5s;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1180px) {
   html body .mainvisual .mainvisual-wrap .mainvisual_text {
     top: 20%;
   }
@@ -984,7 +1001,7 @@ html body .container_pc .container_wrapper_pc {
   /*conctpt_text*/
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1180px) {
   html body .container_pc .container_wrapper_pc {
     max-width: 765px;
     width: 100%;
@@ -1012,7 +1029,7 @@ html body .container_pc .container_wrapper_pc .main_pc .main_content_title {
   transition: all 1.5s;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1180px) {
   html body .container_pc .container_wrapper_pc .main_pc .main_content_title {
     font-size: 30px;
   }
@@ -1147,7 +1164,7 @@ html body .container_pc .container_wrapper_pc .concept_text {
   transition: all 1.5s;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1180px) {
   html body .container_pc .container_wrapper_pc .concept_text {
     width: 350px;
   }
@@ -2044,6 +2061,7 @@ html body .event_pc .event_pc_wrap .event-content {
   margin: auto;
   height: 307px;
   /*h2*/
+  border-bottom: 2px solid white;
   /*p*/
 }
 
@@ -2069,7 +2087,6 @@ html body .event_pc .event_pc_wrap .event-content h2 {
 }
 
 html body .event_pc .event_pc_wrap .event-content p {
-  border-bottom: 2px solid white;
   color: white;
   display: inline-block;
   font-size: 21px;
