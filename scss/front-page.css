@@ -668,7 +668,7 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li:first-child:b
 
 @media (max-width: 375px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li:first-child:before {
-    left: 100vw;
+    left: 102vw;
     top: -30px;
   }
 }
@@ -704,7 +704,7 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li:last-child:af
 
 @media (max-width: 375px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li:last-child:after {
-    left: 124vw;
+    left: 121vw;
     top: -30px;
   }
 }
