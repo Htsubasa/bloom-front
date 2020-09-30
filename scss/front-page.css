@@ -1345,16 +1345,35 @@ html body .container-wrapper .main-content .concept a .concept-block p {
   }
 }
 
-html body .container-wrapper .side-text {
-  display: none;
+html body .container-wrapper .side_text_block {
+  position: relative;
 }
 
-@media (max-width: 560px) {
-  html body .container-wrapper .side-text {
+html body .container-wrapper .side_text_block .side-text {
+  display: none;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  html body .container-wrapper .side_text_block .side-text {
+    display: initial;
     position: absolute;
     right: 0px;
-    top: 40px;
+    top: -440px;
     z-index: -1;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 560px) {
+  html body .container-wrapper .side_text_block .side-text {
+    top: -560px;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 375px) {
+  html body .container-wrapper .side_text_block .side-text {
+    top: -580px;
+    right: -10px;
   }
 }
 

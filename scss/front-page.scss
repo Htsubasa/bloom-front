@@ -1004,19 +1004,45 @@ span:after{
 
         }/*main-content*/
 
-        .side-text{
-          display: none;
-          
-          @include sp{
-            position: absolute;
-            right: 0px;
-            top: 40px;
-            z-index: -1;
+        .side_text_block{
+
+          position: relative;
+
+          .side-text{
+            display: none;
+            overflow: hidden;
+            
+            @include tab{
+              display: initial;
+              position: absolute;
+              right: 0px;
+              top: -440px;
+              z-index: -1;
+
+              @include sp{
+                top: -560px;
+              }
+
+              @include sp-second(){
+                top: -580px;
+                right: -10px;
+              }
+
+              
+
+            }
+           
           }
-         
+
+
+
         }
+
+      
     }/*wrapper*/
 }
+
+
 
 
 .menu{
