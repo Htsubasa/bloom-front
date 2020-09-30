@@ -1169,6 +1169,7 @@ html body .container {
     display: initial;
     margin-top: 94px;
     position: relative;
+    overflow: hidden;
   }
 }
 
@@ -1347,11 +1348,12 @@ html body .container-wrapper .main-content .concept a .concept-block p {
 
 html body .container-wrapper .side_text_block {
   position: relative;
+  max-width: 768px;
+  width: 100%;
 }
 
 html body .container-wrapper .side_text_block .side-text {
   display: none;
-  overflow: hidden;
 }
 
 @media (max-width: 768px) {
@@ -1373,7 +1375,7 @@ html body .container-wrapper .side_text_block .side-text {
 @media (max-width: 768px) and (max-width: 375px) {
   html body .container-wrapper .side_text_block .side-text {
     top: -580px;
-    right: -10px;
+    right: -20px;
   }
 }
 

@@ -834,6 +834,7 @@ span:after{
     display: initial;
     margin-top: 94px;
     position: relative;
+    overflow: hidden;
   }
   
     &-wrapper{
@@ -1007,10 +1008,12 @@ span:after{
         .side_text_block{
 
           position: relative;
+          max-width: 768px;
+          width: 100%;
+        
 
           .side-text{
             display: none;
-            overflow: hidden;
             
             @include tab{
               display: initial;
@@ -1025,17 +1028,11 @@ span:after{
 
               @include sp-second(){
                 top: -580px;
-                right: -10px;
+                right: -20px;
               }
-
-              
-
-            }
-           
+          
+            } 
           }
-
-
-
         }
 
       
