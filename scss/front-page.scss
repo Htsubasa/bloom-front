@@ -825,7 +825,6 @@ span:after{
 
 
 
-
 .container{
   display: none;
 
@@ -1732,6 +1731,9 @@ span:after{
           font-size: 21px;
           @include font-type-third;
           font-weight: bold;
+          border-bottom: 2px solid white;
+          padding-bottom: 7px;
+
 
           @include tab{
             font-size: 15px;
@@ -1746,6 +1748,27 @@ span:after{
     transform : translate(0, 0);
 } 
   }/*event_pc_wrap*/
+
+
+    
+  .event_pc_wrap::before {
+    width: 100%;
+    z-index: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    height: 545px;
+  
+    @include tab(){
+      height: 450px;
+    }
+   
+  }
+
+
 }/*event_pc*/
 
 

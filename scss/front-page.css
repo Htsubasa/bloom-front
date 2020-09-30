@@ -2122,6 +2122,8 @@ html body .event_pc .event_pc_wrap .event-content p {
   font-size: 21px;
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: bold;
+  border-bottom: 2px solid white;
+  padding-bottom: 7px;
 }
 
 @media (max-width: 768px) {
@@ -2134,6 +2136,24 @@ html body .event_pc .event_pc_wrap .event-content.active {
   opacity: 1;
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
+}
+
+html body .event_pc .event_pc_wrap::before {
+  width: 100%;
+  z-index: 0;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 545px;
+}
+
+@media (max-width: 768px) {
+  html body .event_pc .event_pc_wrap::before {
+    height: 450px;
+  }
 }
 
 html body .event {
