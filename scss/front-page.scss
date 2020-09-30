@@ -1807,8 +1807,8 @@ span:after{
             transform : translate(0, 30px);
             -webkit-transform: translate(0, 30px);
             transition : all 1.5s;
-            padding-top: 64px;
-            padding-bottom: 60px; 
+            padding-top: 57px;
+            padding-bottom: 53px; 
             width: 313px;
             margin: 0 auto;   
            
@@ -1821,7 +1821,7 @@ span:after{
 
 
                 @include sp{
-                font-size: 22px;  
+                font-size: 26px;  
                 }
 
             }/*h2*/
@@ -1831,6 +1831,7 @@ span:after{
                 color: #414141;
                 display: inline-block;
                 font-size: 14px;
+                font-weight: bold;
                 @include font-type-third;
             }/*p*/
 
@@ -1848,6 +1849,7 @@ span:after{
           -webkit-transform: translate(0, 50px);
           transition : all 1.5s;
           width: 100%;
+          position: relative;
 
           @include sp(){
             position: absolute;
@@ -1867,6 +1869,20 @@ span:after{
           opacity : 1;
           transform : translate(0, 0);
       }
+
+
+  img::before {
+    width: 100%;
+    z-index: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+   
+  }
+
 
     }/*wrap*/
 }/*event*/
