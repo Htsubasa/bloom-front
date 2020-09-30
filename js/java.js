@@ -7,7 +7,7 @@ $(function () {
     centerMode: true,
     dots: true,
     // fade: true,
-    slidesToShow: 2,
+    slidesToShow: 0,
     speed: 1000,
     variableWidth: true,
     centerMode: true,
@@ -17,18 +17,17 @@ $(function () {
 });
 
 
+
 $(function () {
   $(".item_wrap_pc").slick({
     arrow: true,
     autoplay: true,
     autoplaySpeed: 1500,
-    centerMode: true,
     dots: true,
     // fade: true,
     slidesToShow: 2,
     speed: 1000,
     variableWidth: true,
-    centerMode: true,
     centerPadding: '30%',
     cssEase: 'linear',
   });
