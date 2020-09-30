@@ -579,7 +579,7 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots {
   /*li*/
 }
 
-@media (max-width: 375px) {
+@media (max-width: 560px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots {
     width: 200px;
   }
@@ -592,16 +592,26 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li {
   /*button*/
 }
 
-@media (max-width: 375px) {
+@media (max-width: 560px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li {
-    margin-right: 2px;
-    margin-left: 2px;
+    left: 63vw;
+    top: -60px;
   }
 }
 
 @media (max-width: 560px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li {
-    left: -7vw;
+    left: 110vw;
+    top: -20px;
+  }
+}
+
+@media (max-width: 375px) {
+  html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li {
+    margin-right: 2px;
+    margin-left: 2px;
+    left: -2vw;
+    top: -2px;
   }
 }
 
@@ -731,7 +741,7 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots .slick-active bu
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 560px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap #pc_slider {
     display: none;
   }
@@ -741,7 +751,7 @@ html body .mainvisual .mainvisual-wrap .slider-wrap #sp_slider {
   display: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 560px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap #sp_slider {
     display: initial;
   }
