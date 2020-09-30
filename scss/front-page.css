@@ -422,7 +422,7 @@ html body header #header-inner .header-nav {
   display: none;
   font-family: 'Cabin', sans-serif;
   position: fixed;
-  height: 400px;
+  height: 450px;
   background-color: #ffffff;
   width: 100%;
   color: black;
@@ -579,6 +579,12 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots {
   /*li*/
 }
 
+@media (max-width: 375px) {
+  html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots {
+    width: 200px;
+  }
+}
+
 html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li {
   margin-right: 7px;
   margin-left: 7px;
@@ -593,13 +599,19 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li {
   }
 }
 
+@media (max-width: 560px) {
+  html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li {
+    left: -7vw;
+  }
+}
+
 html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li button {
   /*before*/
 }
 
 html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li button:before {
   content: '';
-  width: 40px;
+  width: 35px;
   text-indent: 0px;
   position: absolute;
   top: -58px;
@@ -607,11 +619,17 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li button:before
   border-bottom: 3px solid white;
 }
 
+@media (max-width: 560px) {
+  html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li button:before {
+    left: -3vw;
+    top: -15px;
+  }
+}
+
 @media (max-width: 375px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li button:before {
-    top: -5px;
-    left: -4vw;
-    width: 20px;
+    left: 111vw;
+    top: -35px;
   }
 }
 
@@ -627,14 +645,21 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li:first-child:b
 
 @media (max-width: 768px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li:first-child:before {
-    left: 70vw;
+    left: 72vw;
+  }
+}
+
+@media (max-width: 560px) {
+  html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li:first-child:before {
+    left: -8vw;
+    top: -10px;
   }
 }
 
 @media (max-width: 375px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li:first-child:before {
-    left: -10vw;
-    top: 0px;
+    left: 100vw;
+    top: -30px;
   }
 }
 
@@ -656,20 +681,21 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li:last-child:af
 
 @media (max-width: 768px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li:last-child:after {
-    left: 81.5vw;
+    left: 80vw;
   }
 }
 
 @media (max-width: 560px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li:last-child:after {
-    left: 80.5vw;
+    left: 7vw;
+    top: -10px;
   }
 }
 
 @media (max-width: 375px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li:last-child:after {
-    left: 4vw;
-    top: 0px;
+    left: 124vw;
+    top: -30px;
   }
 }
 
@@ -682,7 +708,7 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots .slick-active bu
 }
 
 html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots .slick-active button:before {
-  width: 40px;
+  width: 35px;
   content: '';
   text-indent: 0px;
   position: absolute;
@@ -691,15 +717,21 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots .slick-active bu
   border-bottom: 3px solid #6CD6DB;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 560px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots .slick-active button:before {
-    top: -5px;
-    left: 0px;
-    width: 20px;
+    left: -3vw;
+    top: -15px;
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 375px) {
+  html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots .slick-active button:before {
+    left: 108vw;
+    top: -35px;
+  }
+}
+
+@media (max-width: 375px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap #pc_slider {
     display: none;
   }
@@ -709,7 +741,7 @@ html body .mainvisual .mainvisual-wrap .slider-wrap #sp_slider {
   display: none;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 375px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap #sp_slider {
     display: initial;
   }
