@@ -1,21 +1,12 @@
 
-$(function () {
-  $(".slider").slick({
-    arrow: true,
-    autoplay: true,
-    autoplaySpeed: 3500,
-    centerMode: true,
-    dots: true,
-    // fade: true,
-    slidesToShow: 0,
-    speed: 1000,
-    variableWidth: true,
-    centerMode: true,
-    centerPadding: '30%',
-    cssEase: 'linear',
-  });
+$('.slider').slick({
+  arrow: true,
+  centerMode: false,
+  dots: true,
+  autoplay:true,
+  autoplaySpeed:5000,  
+  slidesToShow: 1,
 });
-
 
 
 $(function () {
@@ -32,10 +23,6 @@ $(function () {
     cssEase: 'linear',
   });
 });
-
-
-
-
 
 $(function(){
   $('.btn-gnavi').on('click',function(){
@@ -504,6 +491,17 @@ $(window).scroll(function (){
       });
 });
 
+
+$(window).scroll(function (){
+  $('.item_wrap_pc').each(function(){
+      var elemPos = $(this).offset().top,
+          scroll = $(window).scrollTop(),
+          windowHeight = $(window).height();
+        if (scroll > elemPos - windowHeight + 120){
+            $(this).addClass('active');
+          }
+      });
+});
 
 
 
