@@ -1198,7 +1198,7 @@ html body .container-wrapper .main-content .main_content_title {
   letter-spacing: 0.05em;
   line-height: 2.26;
   margin-bottom: 47px;
-  font-weight: bold;
+  font-weight: 900;
   color: #414141;
   font-family: 'Noto Sans JP', sans-serif;
   opacity: 0;
@@ -1926,7 +1926,7 @@ html body .gallery-wrap .gallery-h2 {
   -webkit-transition: all 1.5s;
   transition: all 1.5s;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 html body .gallery-wrap .gallery-h2.active {
@@ -2108,6 +2108,7 @@ html body .event_pc .event_pc_wrap .event-content h2 {
   margin-bottom: 20px;
   font-size: 31px;
   font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 900;
 }
 
 @media (max-width: 768px) {
@@ -2212,7 +2213,7 @@ html body .event-wrap .event-content h2 {
   color: #6CD6DB;
   margin-bottom: 25px;
   font-family: 'Noto Sans JP', sans-serif;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 @media (max-width: 560px) {
@@ -2257,7 +2258,7 @@ html body .event-wrap img {
 
 @media (max-width: 375px) {
   html body .event-wrap img {
-    top: 230px;
+    top: 255px;
   }
 }
 

@@ -859,7 +859,7 @@ span:after{
                 letter-spacing: 0.05em;
                 line-height: 2.26;
                 margin-bottom: 47px;
-                font-weight: bold;
+                font-weight: 900;
                 color: #414141;
                 @include font-type-third();
                 opacity : 0;
@@ -1547,7 +1547,7 @@ span:after{
       -webkit-transform: translate(0, 30px);
       transition : all 1.5s;
       font-size: 25px;
-      font-weight: bold;
+      font-weight: 900;
     }
 
     .gallery-h2.active{
@@ -1717,6 +1717,7 @@ span:after{
           margin-bottom: 20px;
           font-size: 31px;
           @include font-type-third;
+          font-weight: 900;
 
 
       @include tab{
@@ -1817,7 +1818,7 @@ span:after{
                 color: #6CD6DB;
                 margin-bottom: 25px;
                 @include font-type-third;
-                font-weight: bold;
+                font-weight: 900;
 
 
                 @include sp{
@@ -1859,7 +1860,7 @@ span:after{
         }
 
             @include sp-second(){
-                top: 230px;
+                top: 255px;
             }
 
 
