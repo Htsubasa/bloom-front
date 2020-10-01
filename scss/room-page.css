@@ -412,7 +412,7 @@ html body header #header-inner .header-nav {
   display: none;
   font-family: 'Cabin', sans-serif;
   position: fixed;
-  height: 400px;
+  height: 450px;
   background-color: #ffffff;
   width: 100%;
   color: black;
@@ -609,6 +609,12 @@ html body .mainvisual .mainvisual-wrap .mainvisual_text h1 .sub_mainvisual_text 
   display: block;
   margin-bottom: 43px;
   font-weight: normal;
+}
+
+@media (max-width: 375px) {
+  html body .mainvisual .mainvisual-wrap .mainvisual_text h1 .sub_mainvisual_text {
+    font-size: 14px;
+  }
 }
 
 html body .mainvisual .mainvisual-wrap .mainvisual_text .middle_text {
@@ -895,13 +901,6 @@ html body .gallery .gallery-item {
   }
 }
 
-@media (max-width: 375px) {
-  html body .gallery .gallery-item {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-}
-
 html body .gallery .gallery-item .img-block {
   /*card*/
   /*card*/
@@ -925,14 +924,8 @@ html body .gallery .gallery-item .img-block .card {
   width: 125px;
   margin-left: 20px;
   position: absolute;
-  bottom: 30%;
+  bottom: 24%;
   /*p*/
-}
-
-@media (max-width: 375px) {
-  html body .gallery .gallery-item .img-block .card {
-    bottom: 30%;
-  }
 }
 
 html body .gallery .gallery-item .img-block .card p {
@@ -957,7 +950,7 @@ html body .gallery .gallery-item .img-block .card_odd {
 @media (max-width: 375px) {
   html body .gallery .gallery-item .img-block .card_odd {
     left: -7%;
-    bottom: 103px;
+    bottom: 90px;
   }
 }
 
@@ -998,7 +991,7 @@ html body .gallery .gallery-item .img-block p {
 
 @media (max-width: 560px) {
   html body .gallery .gallery-item .img-block p {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 
@@ -1008,7 +1001,7 @@ html body .gallery .gallery-item .img-block .odd {
 
 @media (max-width: 560px) {
   html body .gallery .gallery-item .img-block .odd {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 
@@ -1024,6 +1017,7 @@ html body .gallery .gallery-item h3 {
             writing-mode: vertical-rl;
     font-size: 22px;
     letter-spacing: 0.05;
+    font-family: 'Josefin Sans', sans-serif;
   }
 }
 
@@ -1048,12 +1042,12 @@ html body .gallery .gallery-item h3 {
 }
 
 html body .gallery .gallery-item h3:nth-child(odd) {
-  margin-left: 33%;
+  margin-left: 13%;
 }
 
 @media (max-width: 375px) {
   html body .gallery .gallery-item h3:nth-child(odd) {
-    margin-left: 0px;
+    margin-left: 1vw;
   }
 }
 
@@ -1063,7 +1057,7 @@ html body .gallery .gallery-item h3:nth-child(even) {
 
 @media (max-width: 375px) {
   html body .gallery .gallery-item h3:nth-child(even) {
-    margin-right: 0px;
+    margin-right: 3vw;
   }
 }
 
@@ -1410,8 +1404,8 @@ html body .contact-wrapper .concept a .cp_arrows {
 
 @media (max-width: 375px) {
   html body .contact-wrapper .concept a .cp_arrows {
-    width: 34px;
-    height: 34px;
+    width: 44px;
+    height: 44px;
   }
 }
 
@@ -1445,8 +1439,8 @@ html body .contact-wrapper .concept a .cp_arrows [class*='cp_arrow'] {
   html body .contact-wrapper .concept a .cp_arrows [class*='cp_arrow'] {
     width: 10px;
     height: 12px;
-    top: -0.3em;
-    left: -3px;
+    top: 0em;
+    left: 2px;
     border-width: 2px 2px 0 0;
   }
 }
@@ -1518,7 +1512,7 @@ html body .contact-wrapper .concept a .concept-block h4 {
 
 @media (max-width: 375px) {
   html body .contact-wrapper .concept a .concept-block h4 {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
@@ -1531,7 +1525,7 @@ html body .contact-wrapper .concept a .concept-block p {
 
 @media (max-width: 375px) {
   html body .contact-wrapper .concept a .concept-block p {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
