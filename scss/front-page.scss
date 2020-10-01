@@ -1641,6 +1641,7 @@ span:after{
 
     h3:nth-child(odd){
       margin-left: 33%;
+      margin-right: 8px;
       @include sp-second(){
         margin-left: 10px;
       }
@@ -1814,7 +1815,7 @@ span:after{
     &-wrap{
 
       @include sp{
-        margin-bottom: 300px;
+        margin-bottom: 400px;
 
       }
 
@@ -1877,8 +1878,12 @@ span:after{
           @include sp(){
             position: absolute;
             z-index: -1;
-            top: 3500px;
+            top: 3720px;
             width: 100%;
+        }
+
+        @include sp-sub(){
+          top: 3620px;
         }
 
             @include sp-second(){
@@ -1923,6 +1928,7 @@ span:after{
           color: #6CD6DB;
           letter-spacing: 0.05em;
           @include font-type-second;
+          font-weight: 600;
 
           @include sp(){
             font-size:45px;

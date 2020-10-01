@@ -2019,6 +2019,7 @@ html body .gallery .gallery-item h3 span {
 
 html body .gallery .gallery-item h3:nth-child(odd) {
   margin-left: 33%;
+  margin-right: 8px;
 }
 
 @media (max-width: 375px) {
@@ -2200,7 +2201,7 @@ html body .event-wrap {
 
 @media (max-width: 560px) {
   html body .event-wrap {
-    margin-bottom: 300px;
+    margin-bottom: 400px;
   }
 }
 
@@ -2269,8 +2270,14 @@ html body .event-wrap img {
   html body .event-wrap img {
     position: absolute;
     z-index: -1;
-    top: 3500px;
+    top: 3720px;
     width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  html body .event-wrap img {
+    top: 3620px;
   }
 }
 
@@ -2314,6 +2321,7 @@ html body .access-wrap h2 {
   color: #6CD6DB;
   letter-spacing: 0.05em;
   font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
 }
 
 @media (max-width: 560px) {
