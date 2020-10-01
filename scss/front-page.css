@@ -835,6 +835,13 @@ html body .mainvisual .mainvisual-wrap .mainvisual_text {
   }
 }
 
+@media (max-width: 375px) {
+  html body .mainvisual .mainvisual-wrap .mainvisual_text {
+    top: 37%;
+    left: 7.5%;
+  }
+}
+
 html body .mainvisual .mainvisual-wrap .mainvisual_text h1 {
   font-size: 107px;
   color: white;
@@ -1954,13 +1961,6 @@ html body .gallery .gallery-item {
   /*h3*/
 }
 
-@media (max-width: 375px) {
-  html body .gallery .gallery-item {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-}
-
 @media (max-width: 560px) {
   html body .gallery .gallery-item .img-block img {
     width: 100%;
@@ -2014,7 +2014,7 @@ html body .gallery .gallery-item h3:nth-child(odd) {
 
 @media (max-width: 375px) {
   html body .gallery .gallery-item h3:nth-child(odd) {
-    margin-left: 0px;
+    margin-left: 10px;
   }
 }
 
@@ -2024,7 +2024,7 @@ html body .gallery .gallery-item h3:nth-child(even) {
 
 @media (max-width: 375px) {
   html body .gallery .gallery-item h3:nth-child(even) {
-    margin-right: 0px;
+    margin-right: 10px;
   }
 }
 
