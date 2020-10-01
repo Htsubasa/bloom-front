@@ -1167,6 +1167,11 @@ html body .container_pc .container_wrapper_pc .concept_text {
   }
 }
 
+html body .container_pc .container_wrapper_pc .concept_text span {
+  margin-top: 15px;
+  display: block;
+}
+
 html body .container_pc .container_wrapper_pc .concept_text.active {
   opacity: 1;
   -webkit-transform: translate(0, 0);
@@ -1290,6 +1295,11 @@ html body .container-wrapper .main-content .concept_text {
   -webkit-transform: translate(0, 30px);
   -webkit-transition: all 1.5s;
   transition: all 1.5s;
+}
+
+html body .container-wrapper .main-content .concept_text span {
+  margin-top: 15px;
+  display: block;
 }
 
 html body .container-wrapper .main-content .concept_text.active {
