@@ -1642,6 +1642,11 @@ span:after{
     h3:nth-child(odd){
       margin-left: 33%;
       margin-right: 8px;
+
+      @include sp-sub(){
+        margin-left: 10%;
+      }
+
       @include sp-second(){
         margin-left: 10px;
       }
@@ -1649,6 +1654,13 @@ span:after{
 
     h3:nth-child(even){
       margin-right: 33%;
+
+      @include sp-sub(){
+        margin-left: 0%;
+        margin-right: 12%;
+      }
+    
+      
       @include sp-second(){
         margin-right: 10px;
       }

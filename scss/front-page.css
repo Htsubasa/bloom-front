@@ -2022,6 +2022,12 @@ html body .gallery .gallery-item h3:nth-child(odd) {
   margin-right: 8px;
 }
 
+@media (max-width: 425px) {
+  html body .gallery .gallery-item h3:nth-child(odd) {
+    margin-left: 10%;
+  }
+}
+
 @media (max-width: 375px) {
   html body .gallery .gallery-item h3:nth-child(odd) {
     margin-left: 10px;
@@ -2030,6 +2036,13 @@ html body .gallery .gallery-item h3:nth-child(odd) {
 
 html body .gallery .gallery-item h3:nth-child(even) {
   margin-right: 33%;
+}
+
+@media (max-width: 425px) {
+  html body .gallery .gallery-item h3:nth-child(even) {
+    margin-left: 0%;
+    margin-right: 12%;
+  }
 }
 
 @media (max-width: 375px) {
