@@ -1992,6 +1992,7 @@ html body .gallery .gallery-item h3 {
           writing-mode: vertical-rl;
   font-size: 39px;
   letter-spacing: 0.05;
+  font-family: 'Josefin Sans', sans-serif;
   /*span*/
 }
 
@@ -2004,6 +2005,7 @@ html body .gallery .gallery-item h3 {
 
 html body .gallery .gallery-item h3 span {
   color: #6CD6DB;
+  margin-top: 10px;
 }
 
 html body .gallery .gallery-item h3:nth-child(odd) {
@@ -2032,6 +2034,7 @@ html body .gallery .gallery-item:nth-child(2n+1) {
   -webkit-transform: translate(40px, 0);
   -webkit-transition: all 1.5s;
   transition: all 1.5s;
+  overflow: hidden;
 }
 
 html body .gallery .gallery-item:nth-child(2n+1).active {

@@ -1440,6 +1440,7 @@ span:after{
 
 
 
+
   .img-block{
 
     @include tab{
@@ -1607,6 +1608,7 @@ span:after{
             writing-mode: vertical-rl;
             font-size: 39px;
             letter-spacing: 0.05;
+            @include font-type-second();
         
 
         @include sp-second{
@@ -1616,6 +1618,7 @@ span:after{
 
     span{
             color:#6CD6DB;
+            margin-top: 10px;
         
 
     }/*span*/
@@ -1646,6 +1649,8 @@ span:after{
   transform : translate(40px, 0);
   -webkit-transform: translate(40px, 0);
   transition : all 1.5s;
+  overflow: hidden;
+
 }
 
 .gallery-item:nth-child(2n+1).active{
@@ -1664,7 +1669,9 @@ span:after{
 .gallery-item:nth-child(2n).active{
   opacity : 1;
   transform : translate(0, 0);
+
 }
+
 }/*gallery*/
 
 
