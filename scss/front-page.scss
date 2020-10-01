@@ -295,10 +295,14 @@ body{
           }
 
           @include sp{
-            left: 110vw;
-            top: -20px;
+            left: 62vw;
+            top: -60px;
           }
 
+        @include sp-sub(){
+          left: 110vw;
+          top: -20px;
+        }
 
           @include sp-second{
             margin-right: 2px;
@@ -522,8 +526,8 @@ body{
       top: 25%;
     }
 
-    @include sp-second(){
-      top: 37%;
+    @include sp-sub(){
+      top: 36%;
       left: 7.5%;
   
     }
@@ -554,7 +558,8 @@ body{
         }
 
         @include sp-second(){
-          top: 60px;
+          top: 58px;
+          left: -20px;
         }
      
       }
@@ -842,6 +847,37 @@ span:after{
     position: relative;
     overflow: hidden;
   }
+
+  .side_text_block{
+
+    position: relative;
+    max-width: 768px;
+    width: 100%;
+  
+
+    .side-text{
+      display: none;
+      
+      @include tab{
+        display: initial;
+        position: absolute;
+        right: 0px;
+        top: -440px;
+        z-index: -1;
+
+        @include sp{
+          top: -560px;
+        }
+
+        @include sp-second(){
+          top: -580px;
+          right: -20px;
+        }
+    
+      } /*sidetext*/
+    }
+  }
+
   
     &-wrapper{
      
@@ -853,6 +889,8 @@ span:after{
         @include sp{
           width: 90%;
         }
+
+        
 
 
         .main-content{
@@ -1011,35 +1049,6 @@ span:after{
 
         }/*main-content*/
 
-        .side_text_block{
-
-          position: relative;
-          max-width: 768px;
-          width: 100%;
-        
-
-          .side-text{
-            display: none;
-            
-            @include tab{
-              display: initial;
-              position: absolute;
-              right: 0px;
-              top: -440px;
-              z-index: -1;
-
-              @include sp{
-                top: -560px;
-              }
-
-              @include sp-second(){
-                top: -580px;
-                right: -20px;
-              }
-          
-            } 
-          }
-        }
 
       
     }/*wrapper*/

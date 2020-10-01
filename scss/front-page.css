@@ -601,6 +601,13 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li {
 
 @media (max-width: 560px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li {
+    left: 62vw;
+    top: -60px;
+  }
+}
+
+@media (max-width: 425px) {
+  html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li {
     left: 110vw;
     top: -20px;
   }
@@ -835,9 +842,9 @@ html body .mainvisual .mainvisual-wrap .mainvisual_text {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   html body .mainvisual .mainvisual-wrap .mainvisual_text {
-    top: 37%;
+    top: 36%;
     left: 7.5%;
   }
 }
@@ -875,7 +882,8 @@ html body .mainvisual .mainvisual-wrap .mainvisual_text img {
 
 @media (max-width: 375px) {
   html body .mainvisual .mainvisual-wrap .mainvisual_text img {
-    top: 60px;
+    top: 58px;
+    left: -20px;
   }
 }
 
@@ -1186,6 +1194,40 @@ html body .container {
   }
 }
 
+html body .container .side_text_block {
+  position: relative;
+  max-width: 768px;
+  width: 100%;
+}
+
+html body .container .side_text_block .side-text {
+  display: none;
+  /*sidetext*/
+}
+
+@media (max-width: 768px) {
+  html body .container .side_text_block .side-text {
+    display: initial;
+    position: absolute;
+    right: 0px;
+    top: -440px;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 560px) {
+  html body .container .side_text_block .side-text {
+    top: -560px;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 375px) {
+  html body .container .side_text_block .side-text {
+    top: -580px;
+    right: -20px;
+  }
+}
+
 html body .container-wrapper {
   width: 500px;
   margin: 0 auto;
@@ -1356,39 +1398,6 @@ html body .container-wrapper .main-content .concept a .concept-block p {
 @media (max-width: 375px) {
   html body .container-wrapper .main-content .concept a .concept-block p {
     font-size: 10px;
-  }
-}
-
-html body .container-wrapper .side_text_block {
-  position: relative;
-  max-width: 768px;
-  width: 100%;
-}
-
-html body .container-wrapper .side_text_block .side-text {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  html body .container-wrapper .side_text_block .side-text {
-    display: initial;
-    position: absolute;
-    right: 0px;
-    top: -440px;
-    z-index: -1;
-  }
-}
-
-@media (max-width: 768px) and (max-width: 560px) {
-  html body .container-wrapper .side_text_block .side-text {
-    top: -560px;
-  }
-}
-
-@media (max-width: 768px) and (max-width: 375px) {
-  html body .container-wrapper .side_text_block .side-text {
-    top: -580px;
-    right: -20px;
   }
 }
 
