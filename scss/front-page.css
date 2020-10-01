@@ -2224,7 +2224,13 @@ html body .event-wrap {
 
 @media (max-width: 560px) {
   html body .event-wrap {
-    margin-bottom: 400px;
+    margin-bottom: 440px;
+  }
+}
+
+@media (max-width: 425px) {
+  html body .event-wrap {
+    margin-bottom: 380px;
   }
 }
 
@@ -2293,14 +2299,14 @@ html body .event-wrap img {
   html body .event-wrap img {
     position: absolute;
     z-index: -1;
-    top: 3720px;
+    top: 3800px;
     width: 100%;
   }
 }
 
 @media (max-width: 425px) {
   html body .event-wrap img {
-    top: 3620px;
+    top: 3900px;
   }
 }
 
