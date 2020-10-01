@@ -1964,7 +1964,6 @@ span:after{
 }/*access*/
 
 
-
 .contact{
 
   &-wrapper{
@@ -1994,7 +1993,6 @@ span:after{
   
     a{
       display: flex;
-  
       .cp_arrows {
   
         width: 76px;
@@ -2002,9 +2000,9 @@ span:after{
           border-radius: 50%;/*角丸*/
           border: solid 3px #FFFFFF;
     
-          @include sp(){
-            width: 34px;
-            height: 34px;
+          @include sp-second(){
+            width: 44px;
+            height: 44px;
           }
     
     
@@ -2032,11 +2030,11 @@ span:after{
           border-width: 4px 4px 0 0;
           border-style: solid;
     
-          @include sp(){
+          @include sp-second(){
             width: 10px;
             height: 12px;  
-            top: -0.3em;
-            left: -3px;  
+            top: 0em;
+            left: 2px;  
             border-width: 2px 2px 0 0;
 
           }
@@ -2062,8 +2060,8 @@ span:after{
               @include sp-second(){
                 width: 13px;
                 height: 2px;
-                right: 0.5px;
-                top: -2.5px;
+                right: -0.3px;
+                top: -2.3px;
               }
       }
       .cp_arrows [class*='cp_arrow']:after {
@@ -2099,7 +2097,7 @@ span:after{
             }
   
             @include sp-second(){
-              font-size: 20px;
+              font-size: 25px;
             }
   
         }/*h4*/
@@ -2111,7 +2109,7 @@ span:after{
           letter-spacing: 0.05em;
   
           @include sp-second(){
-            font-size: 10px;
+            font-size: 12px;
           }
         }/*p*/
   
@@ -2147,6 +2145,7 @@ span:after{
   }
   }/*contact*/
   
+
 
 
 

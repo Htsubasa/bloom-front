@@ -2419,10 +2419,10 @@ html body .contact-wrapper .concept a .cp_arrows {
   border: solid 3px #FFFFFF;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 375px) {
   html body .contact-wrapper .concept a .cp_arrows {
-    width: 34px;
-    height: 34px;
+    width: 44px;
+    height: 44px;
   }
 }
 
@@ -2452,12 +2452,12 @@ html body .contact-wrapper .concept a .cp_arrows [class*='cp_arrow'] {
   border-style: solid;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 375px) {
   html body .contact-wrapper .concept a .cp_arrows [class*='cp_arrow'] {
     width: 10px;
     height: 12px;
-    top: -0.3em;
-    left: -3px;
+    top: 0em;
+    left: 2px;
     border-width: 2px 2px 0 0;
   }
 }
@@ -2484,8 +2484,8 @@ html body .contact-wrapper .concept a .cp_arrows [class*='cp_arrow']:before {
   html body .contact-wrapper .concept a .cp_arrows [class*='cp_arrow']:before {
     width: 13px;
     height: 2px;
-    right: 0.5px;
-    top: -2.5px;
+    right: -0.3px;
+    top: -2.3px;
   }
 }
 
@@ -2529,7 +2529,7 @@ html body .contact-wrapper .concept a .concept-block h4 {
 
 @media (max-width: 375px) {
   html body .contact-wrapper .concept a .concept-block h4 {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
@@ -2542,7 +2542,7 @@ html body .contact-wrapper .concept a .concept-block p {
 
 @media (max-width: 375px) {
   html body .contact-wrapper .concept a .concept-block p {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
