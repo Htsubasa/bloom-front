@@ -796,6 +796,12 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slider li .slider-img img {
   text-align: center;
 }
 
+@media (max-width: 560px) {
+  html body .mainvisual .mainvisual-wrap .slider-wrap .slider li .slider-img img {
+    width: 95%;
+  }
+}
+
 @media (max-width: 375px) {
   html body .mainvisual .mainvisual-wrap .slider-wrap .slider li .slider-img img {
     height: 715px;

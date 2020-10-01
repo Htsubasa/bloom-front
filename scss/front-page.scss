@@ -480,7 +480,8 @@ body{
           margin: 0 auto;
           height: 660px;
 
-          @include pc{
+          @include sp{
+            width: 95%;
           }
 
           @include sp-second(){
